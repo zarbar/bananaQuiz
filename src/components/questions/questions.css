@@ -3,42 +3,34 @@
     height: 100vh;
     width: 100vw;
     background-repeat: repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .yellowBox {
     background: #FAE700;
+    border-radius: 10px;
+    color: 'black';
+    font-family: 'Ribeye Marrow';
+    font-style: 'normal';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
 
 }
 
-.cardBox {
-    margin-top: 2.5%;
-    position: absolute;
-    right: 8%;
-    left: 8%;
-}
-
-.underline {
-    border-bottom: 2px solid currentColor;
-    display: inline-block;
-    line-height: 0.85;
+h2 {
+    text-decoration: underline;
     text-shadow:
         2px 2px white,
         2px -2px white,
         -2px 2px white,
         -2px -2px white;
-    color: 'black';
     font-family: 'Poppins';
-    font-size: 5vw;
-    /* margin-bottom: 3vh; */
-}
-
-.butOff {
-    font-family: 'Ribeye';
-    font-size: 5vw;
-}
-
-.questionFont {
-    font-size: 6.5vw
 }
 
 .bigButton {
@@ -63,10 +55,17 @@ h4 {
     font-size: 5vw;
 }
 
-h3 {
-    font-size: 7vw;
+h2 {
+    font-size: 2em;
 }
 
-h2 {
-    font-size: 4vw;
+.buttonPadding {
+    margin-top: 4vh;
+    padding: 1vh 3vw;
+    background: none;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 5px;
+    outline: none;
+
 }
