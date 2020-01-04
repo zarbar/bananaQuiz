@@ -7,24 +7,44 @@ import questionList from './questionlist';
 
 export default function Questions() {
 
-    const [current_question, setCurrent_question] = useState(questionList()[0]);
+    const [questionNum, setQuestionNum] = useState(0);
+    const [current_question, setCurrent_question] = useState(questionList()[questionNum]);
     const [user_answers, setUser_answers] = useState([]);
-    const [show_sure_page, setSure] = useState(false);
+    const [sure, setSure] = useState(false);
     const [show_final_result, setResults] = useState(false);
 
     useEffect(() => {
         console.log(user_answers);
+        console.log('questionNum: ' + questionNum)
     })
 
-    // if (this.state.show_sure_page) {
-    //     return <Sure goToResult={goToResult} />;
-    // }
-    // if (this.state.show_final_result) {
-    //     return <Result workoutFinalResult={workoutFinalResult} />;
-    // }
+    const nextQuestion = () => {
+        if (questionNum < 7) {
+            setQuestionNum(questionNum + 1);
+        }
+        else {
+            setSure(true);
+        }
+    }
 
+    useEffect(() => {
+        setCurrent_question(questionList()[questionNum]);
+    }, [questionNum])
 
-    return (
+    const showFinalResult = () => {
+        setResults(true);
+        setSure(false);
+    }
+
+    if (sure) {
+        return <Sure results={showFinalResult} />;
+    }
+
+    else if (show_final_result) {
+        return <Result />;
+    }
+
+    else return (
 
         //Background image
         <main className="backBlue" >
@@ -47,6 +67,7 @@ export default function Questions() {
                                 onClick={() => {
                                     let currentAnswers = user_answers;
                                     setUser_answers([...currentAnswers, answer]);
+                                    nextQuestion();
                                 }}
                                 className='buttonPadding'>
                                 <h1>{optionItem.option}</h1>

@@ -4,7 +4,7 @@ import { Button, Container, Card } from 'react-bootstrap';
 import '../questions/questions.css';
 
 
-function Sure({ goToResult }) {
+export default function Sure({ showFinalResult }) {
 
 
     return (
@@ -25,7 +25,7 @@ function Sure({ goToResult }) {
                         <Container className="ready">
                             <span>Ready for your result?</span>
                             <Container>
-                                <div><Button variant="dark" className="bigButton" onClick={goToResult}>Yes!</Button></div>
+                                <div><Button variant="dark" className="bigButton" onClick={showFinalResult}>Yes!</Button></div>
                             </Container>
                         </Container>
 
@@ -36,5 +36,3 @@ function Sure({ goToResult }) {
 
     )
 }
-
-export default Sure;
