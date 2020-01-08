@@ -32,16 +32,17 @@ export default function Questions() {
     }, [questionNum])
 
     const showFinalResult = () => {
+        console.log('result page triggered');
         setResults(true);
         setSure(false);
     }
 
     if (sure) {
-        return <Sure results={showFinalResult} />;
+        return <Sure showResults={showFinalResult} />;
     }
 
     else if (show_final_result) {
-        return <Result />;
+        return <Result answerArray={current_question} />;
     }
 
     else return (

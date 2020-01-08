@@ -4,8 +4,11 @@ import { Button, Container, Card } from 'react-bootstrap';
 import '../questions/questions.css';
 
 
-export default function Sure({ showFinalResult }) {
+export default function Sure(props) {
 
+    const showResults = () => {
+        props.showResults();
+    }
 
     return (
 
@@ -25,7 +28,13 @@ export default function Sure({ showFinalResult }) {
                         <Container className="ready">
                             <span>Ready for your result?</span>
                             <Container>
-                                <div><Button variant="dark" className="bigButton" onClick={showFinalResult}>Yes!</Button></div>
+                                <div>
+                                    <Button variant="dark" className="bigButton"
+                                        onClick={() => showResults()}
+                                    >
+                                        Yes!
+                                    </Button>
+                                </div>
                             </Container>
                         </Container>
 
