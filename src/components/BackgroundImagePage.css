@@ -23,6 +23,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 10%;
+    padding-top: 20vh;
 }
 
 .startButton {
@@ -42,4 +43,28 @@ h1 {
     font-size: 4vw;
     border-radius: 12px;
     color: yellowgreen;
+}
+
+.myAnimation {
+    animation-duration: 2s;
+}
+
+.myButtonAnimation {
+    opacity: 0;
+    animation: appear 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    79% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

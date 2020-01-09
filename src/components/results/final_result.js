@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button, Image } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image'
 import '../questions/questions.css';
 import split from './bananasplit.jpg';
 import bread from './bananabread.jpg';
@@ -37,7 +38,7 @@ export default function Result({ answerArray }) {
             <div className='yellowBox'>
                 <h4>You are a...</h4>
                 <h3>{answer.h3}</h3>
-                <Image src={answer.src} className="image" rounded />
+                <Image src={answer.src} className="image" rounded fluid />
                 <Button variant="dark" onClick={() => { window.location.replace('questions') }}>Try again?</Button>
             </div>
         </main >

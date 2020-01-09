@@ -41,6 +41,10 @@ h2 {
     font-size: 3em;
 }
 
+#readyButton:hover {
+    background: black;
+}
+
 #resultReady {
     padding: 2vh 2vw 5vh 2vw;
 }
