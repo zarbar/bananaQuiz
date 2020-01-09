@@ -12,7 +12,7 @@ export default function Sure(props) {
                 <span id='resultReady'>
                     <h1>Ready for your result?</h1>
                 </span>
-                <div>
+                <div className='sillyShake animated wobble'>
                     <button id='readyButton'
                         onClick={() => showResults()}>
                         Yes!

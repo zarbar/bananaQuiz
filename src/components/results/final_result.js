@@ -12,7 +12,7 @@ export default function Result({ answerArray }) {
     const [answer, setAnswer] = React.useState({ h3: '', src: '' });
 
     React.useEffect(() => {
-        let splitCount = { counter: 0, h3: 'Split Banana', src: split };
+        let splitCount = { counter: 0, h3: 'Banana Split', src: split };
         let breadCount = { counter: 0, h3: 'Banana Bread', src: bread };
         let peelCount = { counter: 0, h3: 'Banana Peel', src: peel };
         let regularCount = { counter: 0, h3: 'Regular Banana', src: regular };
