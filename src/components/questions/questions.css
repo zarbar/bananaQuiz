@@ -33,16 +33,20 @@ h2 {
     font-family: 'Poppins';
 }
 
-.bigButton {
-    height: 30vh;
-    width: 35vw;
-    margin: 3%;
-    font-size: 10vw;
+#readyButton {
+    border-radius: 10px;
+    color: antiquewhite;
+    background: #202020;
+    padding: 3vh 4vw;
+    font-size: 3em;
 }
 
-.ready {
-    margin: 1%;
-    font-size: 10vw;
+#readyButton:hover {
+    background: black;
+}
+
+#resultReady {
+    padding: 2vh 2vw 5vh 2vw;
 }
 
 .image {
@@ -75,4 +79,9 @@ h2 {
 h1 {
     padding: 0;
     margin: 0;
+}
+
+.sillyShake {
+    animation-duration: 2.2s;
+    animation-delay: 0.5s;
 }

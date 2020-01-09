@@ -8,6 +8,7 @@ html {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    text-align: center;
 }
 
 h1 {
@@ -15,6 +16,14 @@ h1 {
     text-decoration: bold;
     font-size: 4vw;
     text-shadow: 0 0 3px greenyellow;
+
+}
+
+h5 {
+    font-family: 'Ribeye', cursive;
+    text-decoration: bold;
+    font-size: 40pt;
+    text-shadow: 4px 3px 7px white;
 }
 
 .whatBanana {
@@ -22,7 +31,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 30vh 10vw 5vh 10vw;
 }
 
 .startButton {
@@ -32,14 +41,36 @@ h1 {
 
 .startBut {
     font-family: 'Poppins';
-    font-size: 4vw;
+    font-size: 40pt;
     border-radius: 12px;
     color: yellow;
 }
 
 .startBut:hover {
-    font-family: 'Poppins';
-    font-size: 4vw;
-    border-radius: 12px;
-    color: yellowgreen;
+    background: yellow;
+    color: black;
+}
+
+.myAnimation {
+    animation-duration: 2s;
+}
+
+.myButtonAnimation {
+    opacity: 0;
+    animation: appear 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    79% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
