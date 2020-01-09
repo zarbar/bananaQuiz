@@ -1,0 +1,45 @@
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("./newBananaBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Ribeye', cursive;
+    text-decoration: bold;
+    font-size: 4vw;
+    text-shadow: 0 0 3px greenyellow;
+}
+
+.whatBanana {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.startButton {
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.startBut {
+    font-family: 'Poppins';
+    font-size: 4vw;
+    border-radius: 12px;
+    color: yellow;
+}
+
+.startBut:hover {
+    font-family: 'Poppins';
+    font-size: 4vw;
+    border-radius: 12px;
+    color: yellowgreen;
+}
