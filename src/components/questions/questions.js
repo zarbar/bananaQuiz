@@ -42,7 +42,7 @@ export default function Questions() {
     }
 
     else if (show_final_result) {
-        return <Result answerArray={current_question} />;
+        return <Result answerArray={user_answers} />;
     }
 
     else return (

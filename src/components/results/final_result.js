@@ -7,28 +7,40 @@ import peel from './bananapeel.jpg';
 import regular from './banana.jpg';
 
 
-function Result({ answerArray }) {
+export default function Result({ answerArray }) {
+     const [answer, setAnswer] = React.useState({ h3: '', src: '' });
 
-    let result = (answerArray) => {
-        let splitCount = 0;
-        let breadCount = 0;
-        let peelCount = 0;
-        let regularCount = 0;
-    
-        return 'Regular Banana';
-    };
+    React.useEffect(() => {
+        let splitCount = { counter: 0, h3: 'Split Banana', src: split };
+        let breadCount = { counter: 0, h3: 'Banana Bread', src: bread };
+        let peelCount = { counter: 0, h3: 'Banana Peel', src: peel };
+        let regularCount = { counter: 0, h3: 'Regular Banana', src: regular };
 
-    return (
+        if (answerArray) {
+            answerArray.map((answer) => {
+                return answer === 'split' ?
+                    splitCount.counter += 1 :
+                    answer === 'bread' ?
+                        breadCount.counter += 1 :
+                        answer === 'peel' ?
+                            peelCount.counter += 1 :
+                            regularCount.counter += 1;
+            });
+            setAnswer([splitCount, breadCount, peelCount, regularCount].sort((a, b) => {
+                return b.counter - a.counter;
+            })[0]);
+        }
+    }, [answerArray])
+
+      return (
         <main className="backBlue">
             <div className='yellowBox'>
                 <h4>You are a...</h4>
-                <h3>{result}</h3>
-                <Image src={regular} className="image" rounded />
+                <h3>{answer.h3}</h3>
+                <Image src={answer.src} className="image" rounded />
                 <Button variant="dark">Try again?</Button>
             </div>
         </main>
 
     )
 }
-
-export default Result;
