@@ -2,7 +2,7 @@
   "name": "banana_quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zarbar.github.io/bananaQuiz",
+  "homepage": "https://zarbar.github.io/bananaQuiz/",
   "dependencies": {
     "animate.css": "^3.7.2",
     "bootstrap": "^4.4.1",
