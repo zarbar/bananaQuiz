@@ -10,7 +10,7 @@ export default function Home() {
                 <div className="whatBanana">
                     <h5 className='animated fadeInUpBig delay-1s myAnimation'>What type of banana are you?</h5>
                 </div>
-                <div className="startButton myButtonAnimation">
+                <div className="myButtonAnimation">
                     <Link to="/questions">
                         <Button className="startBut" variant="dark">
                             Start Quiz

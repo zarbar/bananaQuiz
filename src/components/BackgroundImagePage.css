@@ -34,12 +34,9 @@ h5 {
     padding: 30vh 10vw 5vh 10vw;
 }
 
-.startButton {
-    font-family: 'Poppins';
-    text-align: center;
-}
 
 .startBut {
+    text-align: center;
     font-family: 'Poppins';
     font-size: 40pt;
     border-radius: 12px;
