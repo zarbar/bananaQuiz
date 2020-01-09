@@ -13,10 +13,6 @@ export default function Questions() {
     const [sure, setSure] = useState(false);
     const [show_final_result, setResults] = useState(false);
 
-    useEffect(() => {
-        console.log(user_answers);
-        console.log('questionNum: ' + questionNum)
-    })
 
     const nextQuestion = () => {
         if (questionNum < 7) {
@@ -32,8 +28,7 @@ export default function Questions() {
     }, [questionNum])
 
     const showFinalResult = () => {
-        console.log('result page triggered');
-        setResults(true);
+              setResults(true);
         setSure(false);
     }
 
