@@ -8,6 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        Hello these are some test words
         <BrowserRouter>
           <Switch>
             <Route exact path='/' component={Home} />
