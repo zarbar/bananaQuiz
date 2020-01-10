@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bananaQuiz/precache-manifest.46ef6c6d8db32b661d2132ccdcde78df.js"
+  "/bananaQuiz/precache-manifest.367162164d3e5482464679445d245f7a.js"
 );
 
 self.addEventListener('message', (event) => {
