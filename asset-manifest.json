@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bananaQuiz/static/css/main.d622235b.chunk.css",
-    "main.js": "/bananaQuiz/static/js/main.f88cc169.chunk.js",
-    "main.js.map": "/bananaQuiz/static/js/main.f88cc169.chunk.js.map",
+    "main.js": "/bananaQuiz/static/js/main.e0a90ea6.chunk.js",
+    "main.js.map": "/bananaQuiz/static/js/main.e0a90ea6.chunk.js.map",
     "runtime-main.js": "/bananaQuiz/static/js/runtime-main.3db80f41.js",
     "runtime-main.js.map": "/bananaQuiz/static/js/runtime-main.3db80f41.js.map",
-    "static/js/2.71f35349.chunk.js": "/bananaQuiz/static/js/2.71f35349.chunk.js",
-    "static/js/2.71f35349.chunk.js.map": "/bananaQuiz/static/js/2.71f35349.chunk.js.map",
+    "static/js/2.d32c37ce.chunk.js": "/bananaQuiz/static/js/2.d32c37ce.chunk.js",
+    "static/js/2.d32c37ce.chunk.js.map": "/bananaQuiz/static/js/2.d32c37ce.chunk.js.map",
     "index.html": "/bananaQuiz/index.html",
-    "precache-manifest.9ce82f89879ca4348e36e52956a069e6.js": "/bananaQuiz/precache-manifest.9ce82f89879ca4348e36e52956a069e6.js",
+    "precache-manifest.46ef6c6d8db32b661d2132ccdcde78df.js": "/bananaQuiz/precache-manifest.46ef6c6d8db32b661d2132ccdcde78df.js",
     "service-worker.js": "/bananaQuiz/service-worker.js",
     "static/css/main.d622235b.chunk.css.map": "/bananaQuiz/static/css/main.d622235b.chunk.css.map",
-    "static/js/2.71f35349.chunk.js.LICENSE": "/bananaQuiz/static/js/2.71f35349.chunk.js.LICENSE",
+    "static/js/2.d32c37ce.chunk.js.LICENSE": "/bananaQuiz/static/js/2.d32c37ce.chunk.js.LICENSE",
     "static/media/banana.jpg": "/bananaQuiz/static/media/banana.3d9a6a39.jpg",
     "static/media/bananabread.jpg": "/bananaQuiz/static/media/bananabread.9bac3c7c.jpg",
     "static/media/bananapeel.jpg": "/bananaQuiz/static/media/bananapeel.24d79001.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3db80f41.js",
-    "static/js/2.71f35349.chunk.js",
+    "static/js/2.d32c37ce.chunk.js",
     "static/css/main.d622235b.chunk.css",
-    "static/js/main.f88cc169.chunk.js"
+    "static/js/main.e0a90ea6.chunk.js"
   ]
 }
