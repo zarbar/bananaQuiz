@@ -8,8 +8,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        Test words on App.js, please remove when problem resolved
         <Router>
-          <Route exact path='/start' component={Home} />
+          <Route exact path='/' component={Home} />
           <Route path='/questions' component={Questions} />
         </Router>
       </div>
