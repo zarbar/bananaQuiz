@@ -39,7 +39,7 @@ export default function Result({ answerArray }) {
                 <h4>You are a...</h4>
                 <h3>{answer.h3}</h3>
                 <Image src={answer.src} className="image" rounded fluid />
-                <Button variant="dark" onClick={() => { window.location.replace('questions') }}>Try again?</Button>
+                <Button variant="dark" onClick={() => { window.location.replace('/questions') }}>Try again?</Button>
             </div>
         </main >
 
