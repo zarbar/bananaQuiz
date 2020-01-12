@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "869177223f0418fcf81403e391b8c097",
+    "revision": "8c46ed449698e31839054c62b5ad7a53",
     "url": "/bananaQuiz/index.html"
   },
   {
-    "revision": "166f5819731d12ae3580",
+    "revision": "632874d745c7145220e0",
     "url": "/bananaQuiz/static/css/main.d622235b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bananaQuiz/static/js/2.d32c37ce.chunk.js.LICENSE"
   },
   {
-    "revision": "166f5819731d12ae3580",
-    "url": "/bananaQuiz/static/js/main.d55c9fb2.chunk.js"
+    "revision": "632874d745c7145220e0",
+    "url": "/bananaQuiz/static/js/main.3dc4e4c8.chunk.js"
   },
   {
     "revision": "e6cc3e03a4361793c33c",
