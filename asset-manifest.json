@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bananaQuiz/static/css/main.d622235b.chunk.css",
-    "main.js": "/bananaQuiz/static/js/main.3dc4e4c8.chunk.js",
-    "main.js.map": "/bananaQuiz/static/js/main.3dc4e4c8.chunk.js.map",
+    "main.js": "/bananaQuiz/static/js/main.d42b1fc3.chunk.js",
+    "main.js.map": "/bananaQuiz/static/js/main.d42b1fc3.chunk.js.map",
     "runtime-main.js": "/bananaQuiz/static/js/runtime-main.3db80f41.js",
     "runtime-main.js.map": "/bananaQuiz/static/js/runtime-main.3db80f41.js.map",
     "static/js/2.d32c37ce.chunk.js": "/bananaQuiz/static/js/2.d32c37ce.chunk.js",
     "static/js/2.d32c37ce.chunk.js.map": "/bananaQuiz/static/js/2.d32c37ce.chunk.js.map",
     "index.html": "/bananaQuiz/index.html",
-    "precache-manifest.d69f781580ede559e4dbbb965d3e9536.js": "/bananaQuiz/precache-manifest.d69f781580ede559e4dbbb965d3e9536.js",
+    "precache-manifest.16dbb920ddd3416c22fde16e3155ecc5.js": "/bananaQuiz/precache-manifest.16dbb920ddd3416c22fde16e3155ecc5.js",
     "service-worker.js": "/bananaQuiz/service-worker.js",
     "static/css/main.d622235b.chunk.css.map": "/bananaQuiz/static/css/main.d622235b.chunk.css.map",
     "static/js/2.d32c37ce.chunk.js.LICENSE": "/bananaQuiz/static/js/2.d32c37ce.chunk.js.LICENSE",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.3db80f41.js",
     "static/js/2.d32c37ce.chunk.js",
     "static/css/main.d622235b.chunk.css",
-    "static/js/main.3dc4e4c8.chunk.js"
+    "static/js/main.d42b1fc3.chunk.js"
   ]
 }
